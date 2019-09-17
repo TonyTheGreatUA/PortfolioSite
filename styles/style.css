@@ -123,3 +123,19 @@ h4{
     font-size: 1rem;
     line-height: 1.1;
 }
+
+.knockout-text{
+    color: white;
+    background-color: rgb(244,185,95);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 6vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 840px){
+    .knockout-text{
+        font-size: 12vw;
+    }
+}
